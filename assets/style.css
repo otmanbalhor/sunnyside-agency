@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("Fraunces.ttf");
+}
 body {
   margin: auto;
   font-size: 18px;
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -47,7 +53,166 @@ header h1 {
 section .egg_picture {
   display: flex;
   flex-direction: row-reverse;
+  width: 50%;
+  float: right;
+}
+section .egg_picture img {
+  width: 100%;
 }
 section .egg_picture__text_transform {
+  display: flex;
+  height: 482px;
+  flex-direction: column;
+  padding-top: 10%;
+}
+section .egg_picture__text_transform__item {
+  padding-left: 20%;
+}
+
+section .red_glass {
+  display: flex;
+  float: right;
+  width: 50%;
+  flex-direction: column;
+  padding-top: 10%;
+}
+section .red_glass__item {
+  padding-left: 20%;
+}
+section img {
+  width: 50%;
+}
+
+.espace {
+  margin-bottom: -4px;
+}
+
+.cherry_clem {
+  display: flex;
+}
+.cherry_clem .text {
+  padding-top: 22%;
+}
+.cherry_clem .text h3 {
+  color: #24554A;
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.cherry_clem__text_left {
+  background-image: url(../Images/image-graphic-design.jpg);
+  background-size: contain;
+  height: 490px;
+  width: 50%;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+}
+.cherry_clem__text_right {
+  background-image: url(../Images/image-photography.jpg);
+  background-size: contain;
+  height: 490px;
+  width: 50%;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+}
+.review__title {
+  color: #A7AAAD;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Fraunces";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 5px;
+  padding-bottom: 5%;
+}
+.review__pictures {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.review__pictures__item1, .review__pictures__item2, .review__pictures__item3 {
+  height: auto;
+  max-width: 5%;
+  border-radius: 72px;
+}
+.review__texts {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.review__texts__emily, .review__texts__thomas, .review__texts__jennie {
+  height: auto;
+  max-width: 25%;
+}
+.review__names {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.review__names__emily, .review__names__thomas, .review__names__jennie {
+  height: auto;
+  max-width: 25%;
+}
+.review__jobs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.review__jobs__emily, .review__jobs__thomas, .review__jobs__jennie {
+  height: auto;
+  max-width: 25%;
+}
+
+footer {
+  background-color: #90D4C6;
+  height: 100vh;
+}
+footer .images_footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 250px;
+}
+footer .images_footer__milk, footer .images_footer__orange, footer .images_footer__ice, footer .images_footer__sugar {
+  max-width: 25%;
+}
+footer .container_footer {
+  display: flex;
+  height: 35%;
+}
+footer .container_footer .container_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 5%;
+}
+footer .container_footer .container_logo .logo {
+  max-width: 12%;
+  max-height: 12%;
+}
+footer .container_footer__links {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+}
+footer .logos_footer {
   display: flex;
 }/*# sourceMappingURL=style.css.map */
