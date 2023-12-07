@@ -12,17 +12,18 @@
 <body>
   <header>
     <div class="container_header">
-      <img src="Images/logo.svg">
+      <img class="container_header__logo"src="Images/logoHead.svg" alt="logo">
+      <img class="container_header__burger"src="Images/icon-hamburger.svg" alt="menu burger">
       <nav class="container_header__item">
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Projects</a>
+        <a class="container_header__item__link" href="">About</a>
+        <a class="container_header__item__link" href="">Services</a>
+        <a class="container_header__item__link" href="">Projects</a>
         <a class="container_header__item__contact" href="">Contact</a>
       </nav>
     </div>
     <h1>We are creatives</h1>
+    <img class="logo" src="Images/icon-arrow-down.svg" alt="flèche blanche">
   </header>
-
 
   <main>
     <section>
@@ -30,26 +31,32 @@
         <img src="Images/image-transform.jpg" alt="oeuf">
       </div>
       <article class="egg_picture__text_transform">
-        <h2 class="egg_picture__text_transform__item">Transform your brand</h2>
-
-        <p class="egg_picture__text_transform__item">We are a full-service creative agency specializing in helping brands grow fast.
+        <h2 class="egg_picture__text_transform__item egg_picture__text_transform__title">Transform your brand</h2>
+        
+        <p class="egg_picture__text_transform__item egg_picture__text_transform__p">We are a full-service creative agency specializing in helping brands grow fast.
           Engage your clients through compelling visuals that do most of the marketing for you.</p>
-
-        <a class="egg_picture__text_transform__item" href="">Learn more</a>
+      
+        <span class="egg_picture__text_transform__hover">
+          <a class="egg_picture__text_transform__hover__item egg_picture__text_transform__hover__link" href="">Learn more</a>
+          <span class="egg_picture__text_transform__hover__line">.</span>
+        </span>
       </article>
     </section>
 
     <section class="espace">
+      <img src="Images/image-stand-out.jpg" alt="un verre rouge">
       <article class="red_glass">
-        <h2 class="red_glass__item">Stand out to the right audience</h2>
+        <h2 class="red_glass__item red_glass__title">Stand out to the right audience</h2>
 
-        <p class="red_glass__item">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+        <p class="red_glass__item red_glass__p">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
           build
           and extend your brand in digital places.</p>
-
-        <a class="red_glass__item" href="">Learn more</a>
+        <span class="red_glass__hover">
+          <a class="red_glass__hover__item red_glass__hover__link" href="">Learn more</a>
+          <span class="red_glass__hover__line">.</span>
+        </span>
       </article>
-      <img src="Images/image-stand-out.jpg" alt="un verre rouge">
+      
     </section>
 
     <section class="cherry_clem">
@@ -66,7 +73,6 @@
       <article class="cherry_clem__text_right text">
 
         <h3>Photography</h3>
-
         <p>
           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
         </p>
@@ -74,45 +80,41 @@
     </section>
 
     <section>
+      <p class="review__title">Client testimonials</p>
       <article class="review">
-        <p class="review__title">Client testimonials</p>
-        <div class="review__pictures">
-          <img class="review__pictures__item1" src="Images/image-emily.jpg" alt="Photo d'Emily">
-          <img class="review__pictures__item2" src="Images/image-thomas.jpg" alt="Photo de Thomas">
-          <img class="review__pictures__item3" src="Images/image-jennie.jpg" alt="Photo de Jennie">
+        <div class="review__emily">
+          <img class="review__emily__item1" src="Images/image-emily.jpg" alt="Photo d'Emily">
+          <p class="review__emily__item2">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.</p> 
+            <p class="review__emily__item3">Emily R.</p>
+            <p class="review__emily__item4">Marketing Director</p>
         </div>
 
-        <span class="review__texts">
-          <p class="review__texts__emily"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
-            hit.</p>
-          <p class="review__texts__thomas">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
-            enjoyable
-            experience.</p>
-          <p class="review__texts__jennie">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-          </span>
-
-        <span class="review__names">
-          <p class="review__names__emily">Emily R.</p>
-          <p class="review__names__thomas">Thomas S.</p>
-          <p class="review__names__jennie">Jennie F.</p>
-          
+        <span class="review__thomas">
+          <img class="review__thomas__item1" src="Images/image-thomas.jpg" alt="Photo de Thomas"> 
+          <p class="review__thomas__item2">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable experience.</p>
+          <p class="review__thomas__item3">Thomas S.</p>
+          <p class="review__thomas__item4">Chief Operating Officer</p>
         </span>
 
-        <span class="review__jobs">
-          <p class="review__jobs__emily">Marketing Director</p>
-          <p class="review__jobs__thomas">Chief Operating Officer</p>
-          <p class="review__jobs__jennie">Business Owner</p>
+        <span class="review__jennie">
+          <img class="review__jennie__item1" src="Images/image-jennie.jpg" alt="Photo de Jennie">
+          <p class="review__jennie__item2">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="review__jennie__item3">Jennie F.</p>
+          <p class="review__jennie__item4">Business Owner</p>
         </span>
+
       </article>
     </section>
   </main>
 
   <footer>
     <div class="images_footer">
-      <img class="images_footer__milk" src="Images/image-gallery-milkbottles.jpg" alt="bouteilles de lait">
-      <img class="images_footer__orange" src="Images/image-gallery-orange.jpg" alt="rondelle d'orange">
-      <img class="images_footer__ice" src="Images/image-gallery-cone.jpg" alt="cornet de glace">
-      <img class="images_footer__sugar"src="Images/image-gallery-sugarcubes.jpg" alt="sucres">
+      <img class="images_footer__item" src="Images/image-gallery-milkbottles.jpg" alt="bouteilles de lait">
+      <img class="images_footer__item" src="Images/image-gallery-orange.jpg" alt="rondelle d'orange">
+      <img class="images_footer__item" src="Images/image-gallery-cone.jpg" alt="cornet de glace">
+      <img class="images_footer__item"src="Images/image-gallery-sugarcubes.jpg" alt="sucres">
     </div>
     
 
@@ -123,15 +125,15 @@
           <a href="">About</a>
           <a href="">Services</a>
           <a href="">Projects</a>
-      </nav>
+        </nav>
       </div>
     </span>
 
     <div class="logos_footer">
-      <img class="logos_footer_fb" src="Images/icon-facebook.svg" alt="logo facebook">
-      <img class="logos_footer_insta" src="Images/icon-instagram.svg" alt="logo instagram">
-      <img class="logos_footer_X" src="Images/icon-twitter.svg" alt="logo X">
-      <img class="logos_footer_pinter" src="Images/icon-pinterest.svg" alt="logo pinterest">
+      <a href=""><img class="logos_footer_fb" src="Images/icon-facebook.svg" alt="logo facebook"></a>
+      <a href=""><img class="logos_footer_insta" src="Images/icon-instagram.svg" alt="logo instagram"><img></a>
+      <a href=""><img class="logos_footer_X" src="Images/icon-twitter.svg" alt="logo X"></a>
+      <a href="" ><img class="logos_footer_pinter" src="Images/icon-pinterest.svg" alt="logo pinterest"></a>
     </div>
   </footer>
 </body>
